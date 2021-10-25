@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background: url(./img/Rectangle.jpg) no-repeat center top / cover;
+   width: 1440px;
+   height: 574px;
+}
+.logo img{
+    position: absolute;
+height: 80px;
+}

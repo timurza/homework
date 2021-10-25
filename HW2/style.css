@@ -1,0 +1,12 @@
+hr { 
+ border: 2px solid green;
+  margin-left: 0%;
+width: 400px;
+}
+div {
+    background-color: greenyellow;
+    text-align: center;color: hotpink;
+    
+    width: 500px;
+    height: 100px
+}
