@@ -13,7 +13,7 @@ header {
     width: 1440px;
 }
 
-.div {
+div {
     box-sizing: border-box;
 }
 
@@ -132,10 +132,10 @@ margin-left: 56px;
 }
 
     #resource{
-        box-sizing: border-box;
+        
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: minmax(152px, auto);
+       
     }
     .channel{
     padding-top: 214px;
@@ -143,6 +143,15 @@ margin-left: 56px;
     .image__channel{
         /*margin-left: 121px;*/
         padding-top: 111px;
+    }
+    h4{
+
+font-size: 28px;
+line-height: 37px;
+    }
+    #resource p{
+        font-size: 16px;
+line-height: 27px;
     }
   footer{
       
