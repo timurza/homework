@@ -4,13 +4,14 @@
 }
 
 .container {
-    width: 1283px;
+    max-width: 1283px;
     margin: 0% auto;
     /*border: solid 2px red;*/
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+    
 }
 
 header {
@@ -28,7 +29,7 @@ div {
 }
 
 .logo {
-    width: 206px;
+    
     height: 78px;
     margin-left: 40px;
     margin-top: 20px;
@@ -37,7 +38,7 @@ div {
 .topnav {
     display: flex;
     margin: 0% auto;
-    width: 388px;
+   
 }
 
 .menu li {
@@ -60,15 +61,17 @@ a {
 }
 
 .button-sign {
+    display: flex;
     margin-top: 33px;
     margin-right: 39px;
     padding: 20px 36px;
-    width: 154px;
     height: 52px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
     border-radius: 39px;
+    justify-content: center;
+   
 }
 
 .title {
@@ -104,8 +107,8 @@ h1 {
 }
 
 .button-started {
-    display: block;
-    text-align: center;
+    display: flex;
+    
     margin: 8px 0px;
     color: #112D57;
     width: 183px;
@@ -113,20 +116,23 @@ h1 {
     background: #FFFFFF;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     border-radius: 39px;
+    justify-content: center;
 
 }
 
 .button-try {
-    text-align: center;
-    display: block;
+    justify-content: center;
+    display: flex;
     width: 177px;
     height: 52px;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 39px;
+    
 }
 
 .dashboard {
+    max-width: 100%;
     display: block;
     margin: 0% auto;
     margin-top: 101px;
@@ -146,16 +152,16 @@ h2 {
 }
 
 .service {
-    width: 1270px;
-    height: 615px;
+  
+    max-height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .service_item {
     padding: 40px 50px;
-    width: 404px;
-    height: 440px;
+   
+    max-height: 100%;
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
     box-sizing: border-box;
@@ -165,7 +171,7 @@ h2 {
 
 .service_item-support {
     padding: 40px 50px;
-    width: 406px;
+   
     height: 438px;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
     border: 1px solid #DEDEDE;
@@ -218,8 +224,8 @@ h3 {
     display: flex;
     align-items: center;
     margin: 0% auto;
-    width: 1129px;
-    height: 506px;
+  
+    max-height: 100%;
     margin-top: 110px;
 
 }
@@ -247,7 +253,8 @@ h3 {
 }
 
 .button-for-free {
-
+    display: flex;
+    justify-content: center;
     color: #FFFFFF;
     width: 216px;
     height: 52px;
@@ -258,6 +265,8 @@ h3 {
 }
 
 .button-find-more {
+    display: flex;
+    justify-content: center;
     width: 203px;
     height: 52px;
     background: #FFFFFF;
@@ -274,7 +283,7 @@ h3 {
 
 .button-button {
     display: flex;
-    align-items: center;
+    justify-content: center;
     color: #FFFFFF;
     position: static;
     width: 147px;
@@ -285,8 +294,8 @@ h3 {
 }
 
 .solution .quick-block {
-    width: 1583px;
-    height: 691px;
+   
+    max-height: 100%;
 }
 
 .solution p {
@@ -295,6 +304,9 @@ h3 {
     line-height: 27px;
     margin-top: 20px;
     color: #5C5C5C;
+}
+.solution_img img{
+    max-width: 100%;
 }
 
 .simple-pricing .title {
@@ -307,14 +319,14 @@ h3 {
 }
 
 .simple-pricing .service {
-    width: 1071px;
+   
     height: 1127px;
     margin: 0% auto;
 }
 
 .simple-pricing .service_item {
-    width: 335px;
-    height: 1067px;
+  
+    max-height: 100%;
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
     box-sizing: border-box;
@@ -323,7 +335,7 @@ h3 {
 }
 
 .primary {
-    width: 136px;
+    max-width: 100%;
     height: 61px;
     margin: 0% auto;
     margin-top: 27px;
@@ -363,25 +375,27 @@ h3 {
 }
 
 hr {
-
-    width: 1583px;
+    position: sticky;
+    
     border: 1px solid #CDCDCD;
 }
 
 .subscribe-block {
-    width: 471px;
-    height: 242px;
+    max-width: 471px;
     margin: 0% auto;
     margin-top: 113px;
     margin-bottom: 113px;
 
 }
 
-.subscribe-title {}
+.subscribe p {
+    text-align: center;
+    margin-top: 17px;
+}
 
 .input-buttons {
     display: flex;
-    width: 474px;
+    max-width: 474px;
     height: 52px;
     justify-content: space-between;
     margin-top: 59px;
@@ -389,6 +403,8 @@ hr {
 }
 
 .button-email {
+    display: flex;
+    justify-content: center;
     width: 284px;
     height: 52px;
     background: #EFEFEF;
@@ -396,12 +412,13 @@ hr {
     box-sizing: border-box;
     border-radius: 6px;
     color: #5C5C5C;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 24px;
+    
+   
 }
 
 .button-subscribe {
+    display: flex;
+    justify-content: center;
     background: #03D6F3;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     border-radius: 39px;
@@ -411,15 +428,15 @@ hr {
 
 footer {
     background: #112D57;
-    height: 371px;
+    max-height: 100%;
     margin: 0% auto;
 }
 
 .footer-block {
     display: flex;
     justify-content: space-between;
-    width: 1134px;
-    height: 247px;
+   
+    max-height: 100%;
     /*border: 2px solid white;*/
     margin: 0% auto;
     
@@ -447,8 +464,39 @@ footer {
 }
 .map{
     margin-top: 62px;
+    max-width: 100%;
 }
 
 .contacts {
     margin-top: 88px;
 }
+@media screen and (max-width:1050px) {
+.container{
+max-width: 900px;
+   } 
+ .service, .quick-block{
+     flex-direction: column;
+         
+ }
+ .topnav{
+    display: none;
+ }
+ .service_item, .service_item-support, .service a, .service h2{
+    text-align: center;
+ }
+
+
+}
+@media screen and (max-width:550px){
+.footer-block{
+    flex-direction: column;
+}
+.buttons{
+    display: block;
+  
+}
+
+}
+
+
+ 
