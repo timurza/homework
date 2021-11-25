@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 header {
@@ -29,7 +29,7 @@ div {
 }
 
 .logo {
-    
+
     height: 78px;
     margin-left: 40px;
     margin-top: 20px;
@@ -38,7 +38,7 @@ div {
 .topnav {
     display: flex;
     margin: 0% auto;
-   
+
 }
 
 .menu li {
@@ -71,7 +71,7 @@ a {
     filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
     border-radius: 39px;
     justify-content: center;
-   
+
 }
 
 .title {
@@ -108,7 +108,7 @@ h1 {
 
 .button-started {
     display: flex;
-    
+
     margin: 8px 0px;
     color: #112D57;
     width: 183px;
@@ -128,7 +128,7 @@ h1 {
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 39px;
-    
+
 }
 
 .dashboard {
@@ -152,7 +152,7 @@ h2 {
 }
 
 .service {
-  
+
     max-height: 100%;
     display: flex;
     justify-content: space-between;
@@ -160,7 +160,7 @@ h2 {
 
 .service_item {
     padding: 40px 50px;
-   
+
     max-height: 100%;
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
@@ -171,7 +171,7 @@ h2 {
 
 .service_item-support {
     padding: 40px 50px;
-   
+
     height: 438px;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
     border: 1px solid #DEDEDE;
@@ -224,7 +224,7 @@ h3 {
     display: flex;
     align-items: center;
     margin: 0% auto;
-  
+
     max-height: 100%;
     margin-top: 110px;
 
@@ -294,7 +294,7 @@ h3 {
 }
 
 .solution .quick-block {
-   
+
     max-height: 100%;
 }
 
@@ -305,7 +305,8 @@ h3 {
     margin-top: 20px;
     color: #5C5C5C;
 }
-.solution_img img{
+
+.solution_img img {
     max-width: 100%;
 }
 
@@ -319,13 +320,13 @@ h3 {
 }
 
 .simple-pricing .service {
-   
+
     height: 1127px;
     margin: 0% auto;
 }
 
 .simple-pricing .service_item {
-  
+
     max-height: 100%;
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
@@ -375,8 +376,8 @@ h3 {
 }
 
 hr {
-    position: sticky;
     
+
     border: 1px solid #CDCDCD;
 }
 
@@ -399,7 +400,7 @@ hr {
     height: 52px;
     justify-content: space-between;
     margin-top: 59px;
-   /* border: 2px solid green;*/
+    /* border: 2px solid green;*/
 }
 
 .button-email {
@@ -412,8 +413,8 @@ hr {
     box-sizing: border-box;
     border-radius: 6px;
     color: #5C5C5C;
-    
-   
+
+
 }
 
 .button-subscribe {
@@ -435,11 +436,11 @@ footer {
 .footer-block {
     display: flex;
     justify-content: space-between;
-   
+
     max-height: 100%;
     /*border: 2px solid white;*/
     margin: 0% auto;
-    
+
 }
 
 .price {
@@ -462,7 +463,8 @@ footer {
     margin-left: 70px;
 
 }
-.map{
+
+.map {
     margin-top: 62px;
     max-width: 100%;
 }
@@ -470,33 +472,40 @@ footer {
 .contacts {
     margin-top: 88px;
 }
+
 @media screen and (max-width:1050px) {
-.container{
-max-width: 900px;
-   } 
- .service, .quick-block{
-     flex-direction: column;
-         
- }
- .topnav{
-    display: none;
- }
- .service_item, .service_item-support, .service a, .service h2{
-    text-align: center;
- }
+    .container {
+        max-width: 900px;
+    }
+
+    .service,
+    .quick-block {
+        flex-direction: column;
+
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    .service_item,
+    .service_item-support,
+    .service a,
+    .service h2 {
+        text-align: center;
+    }
 
 
 }
-@media screen and (max-width:550px){
-.footer-block{
-    flex-direction: column;
-}
-.buttons{
-    display: block;
-  
-}
+
+@media screen and (max-width:550px) {
+    .footer-block {
+        flex-direction: column;
+    }
+
+    .buttons {
+        display: block;
+
+    }
 
 }
-
-
- 
